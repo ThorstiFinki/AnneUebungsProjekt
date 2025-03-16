@@ -8,6 +8,8 @@ public class Autohändler {
         Auto auto3 = new Auto("Geländewagen", 250);
         Taxi auto4 = new Taxi("Taxi klein", 101, 3, true);
         Taxi auto5 = new Taxi("Taxi groß", 101, 8, false);
+        Taxi auto4 = new Taxi("Taxi klein", 101, 3, 3.5);
+        Taxi auto5 = new Taxi("Taxi groß", 101, 8, 6.5);
 
         auto1.setName("Super Duper Auto");
         auto4.setName("Rainers Auto");
@@ -19,6 +21,10 @@ public class Autohändler {
                 + auto4.getPsZahl() + " hat Klima ? " + auto4.isHatKlima() + " Anzahl Passagiere: " + auto4.getAnzahlPassagiere()+ "Taxilicht an? " + auto4.isTaxiLicht()) ;
         System.out.println("Beispiel 5 Name: " + auto5.getName() + " Typ: " + auto5.getTyp() + " PS Zahl: "
                 + auto5.getPsZahl() + " hat Klima ? " + auto5.isHatKlima() + " Anzahl Passagiere: " + auto5.getAnzahlPassagiere()+ "Taxilicht an? " + auto5.isTaxiLicht());
+        System.out.println("Beispiel 4 Name: " + auto4.getName() + " Typ: " + auto4.getTyp() + " PS Zahl: " + auto4.getPsZahl() + " hat Klima ? "
+                + auto4.isHatKlima() + " Anzahl Passagiere: " + auto4.getAnzahlPassagiere() + " Preis pro Kilometer: " + auto4.getPreisProKilometer());
+        System.out.println("Beispiel 5 Name: " + auto5.getName() + " Typ: " + auto5.getTyp() + " PS Zahl: " + auto5.getPsZahl() + " hat Klima ? "
+                + auto5.isHatKlima() + " Anzahl Passagiere: " + auto5.getAnzahlPassagiere() + " Preis pro Kilometer: " + auto5.getPreisProKilometer());
 
     }
 }
