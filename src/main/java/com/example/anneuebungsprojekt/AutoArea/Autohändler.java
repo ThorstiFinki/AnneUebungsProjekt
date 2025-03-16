@@ -6,9 +6,7 @@ public class Autohändler {
         Auto auto1 = new Auto("Stadtwagen", 50);
         Auto auto2 = new Auto("Schneller Flitzer", 150);
         Auto auto3 = new Auto("Geländewagen", 250);
-        Taxi auto4 = new Taxi("Taxi klein", 101, 3);
-        Taxi auto5 = new Taxi("Taxi groß", 101, 8);
-        Taxi auto4 = new Taxi("Taxi klein", 101, 4, 3.5);
+        Taxi auto4 = new Taxi("Taxi klein", 101, 3, 3.5);
         Taxi auto5 = new Taxi("Taxi groß", 101, 8, 6.5);
 
         auto1.setName("Super Duper Auto");
