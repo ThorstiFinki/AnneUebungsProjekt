@@ -6,12 +6,12 @@ public class Taxi extends Auto {
 
     private int anzahlPassagiere;
     private double preisProKilometer;
-
     private boolean taxiLicht;
 
-    public Taxi(String typ, int pS, int anzahlPassagiere, boolean taxiLicht) {
+    public Taxi(String typ, int pS, int anzahlPassagiere, boolean taxiLicht, double preisProKilometer) {
         super(typ, pS);
         this.anzahlPassagiere = anzahlPassagiere;
+        this.taxiLicht = taxiLicht;
         this.preisProKilometer = preisProKilometer;
     }
 
@@ -21,12 +21,8 @@ public class Taxi extends Auto {
 
     public double getPreisProKilometer() {
         return preisProKilometer;
-        this.taxiLicht = taxiLicht;
     }
 
-    public int getAnzahlPassagiere() {
-        return anzahlPassagiere;
-    }
     public boolean isTaxiLicht() {
         return taxiLicht;
     }
